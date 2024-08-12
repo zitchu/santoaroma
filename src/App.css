@@ -1,0 +1,44 @@
+.verde {
+  color: #888c64;
+}
+
+.bg-verde {
+  background-color: #888c64;
+}
+
+.rosa {
+  color: #ceaa94;
+}
+
+.bg-rosa {
+  background-color: #ceaa94;
+}
+
+.marrom {
+  color: #a27760;
+}
+
+.bg-marrom {
+  background-color: #a27760;
+}
+
+.azul {
+  color: #c7d1c8;
+}
+
+.bg-azul {
+  background-color: #c7d1c8;
+}
+
+.creme {
+  color: #deded2;
+}
+
+.bg-creme {
+  background-color: #deded2;
+}
+
+.text-xs {
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
