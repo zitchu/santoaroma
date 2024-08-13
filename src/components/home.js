@@ -6,7 +6,7 @@ import Flor3 from "./img/flor3.png";
 function Home() {
   return (
     <div
-      className="bg-verde h-screen w-full text-white text-2xl flex  justify-center items-center "
+      className="bg-verde h-screen w-full text-white text-2xl flex justify-center items-center"
       style={{
         backgroundImage: `url(${Vela3})`,
         backgroundSize: "cover",
@@ -14,7 +14,7 @@ function Home() {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="w-[66%] h-full flex flex-col left-0 absolute justify-center items-center bg-verde ">
+      <div className="w-[66%] h-full flex flex-col left-0 absolute justify-center items-center bg-verde">
         <img src={Logo} alt="Logo" className="" />
         <img
           src={Flor3}
