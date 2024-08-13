@@ -6,7 +6,7 @@ import Flor3 from "./img/flor3.png";
 function Home() {
   return (
     <div
-      className="bg-verde h-[100vh]  w-full text-white text-2xl flex  justify-center items-center "
+      className="bg-verde h-screen w-full text-white text-2xl flex  justify-center items-center "
       style={{
         backgroundImage: `url(${Vela3})`,
         backgroundSize: "cover",

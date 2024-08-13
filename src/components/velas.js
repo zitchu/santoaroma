@@ -2,10 +2,11 @@ import React from "react";
 import Vela1 from "./img/vela1.jpg";
 import Flor1 from "./img/flor1.png";
 
+
 function Velas() {
   return (
     <div
-      className="h-[100vh]  w-full text-black text-2xl flex flex-row justify-evenly items-center"
+      className="h-[100%]  w-full text-black text-2xl flex flex-row justify-evenly items-center"
       style={{
         backgroundImage: `url(${Vela1})`,
         backgroundSize: "cover",
@@ -13,8 +14,8 @@ function Velas() {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="w-full md:w-[66%] h-full flex flex-col justify-evenly right-0 absolute">
-        <h1 className="text-sm md:text-2xl h-full flex right-0 relative justify-center items-center bg-azul px-[5%] text-justify leading-6 md:leading-10">
+      <div className="w-full md:w-[66%] h-screen flex flex-col justify-evenly right-0 absolute">
+        <h1 className="text-sm md:text-lg lg:text-2xl h-full flex right-0 relative justify-center items-center bg-azul px-[5%] text-justify leading-6 md:leading-10">
           As velas aromáticas têm o poder de transformar qualquer ambiente em um
           refúgio de tranquilidade e bem-estar. Cada chama acesa libera
           fragrâncias delicadas e envolventes, criando uma atmosfera que convida
@@ -34,7 +35,7 @@ function Velas() {
             className="w-[15%] right-0 absolute mr-[40%] mt-0 bottom-[50%] hidden md:block"
           />
         </div>
-        <h2 className="text-sm md:text-2xl h-full flex right-0 relative justify-center items-center bg-azul px-[5%] text-justify leading-6 md:leading-10">
+        <h2 className="text-sm md:text-lg lg:text-2xl h-full flex right-0 relative justify-center items-center bg-azul px-[5%] text-justify leading-6 md:leading-10">
           A aromatização de ambientes com velas vai além de simplesmente
           perfumar; ela envolve a criação de um ambiente que promove equilíbrio
           e clareza mental. Ao utilizar matérias-primas sustentáveis,

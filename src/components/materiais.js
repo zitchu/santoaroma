@@ -2,10 +2,11 @@ import React from "react";
 import Vela4 from "./img/vela4.jpg";
 import Flor1 from "./img/flor1.png";
 
+
 function Materiais() {
   return (
     <div
-      className="h-[100vh] w-full text-black text-2xl flex flex-row justify-evenly items-center "
+      className="h-[100%] w-full text-black text-2xl flex flex-row justify-evenly items-center "
       style={{
         backgroundImage: `url(${Vela4})`,
         backgroundSize: "cover",
@@ -13,8 +14,8 @@ function Materiais() {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="w-full md:w-[50%] h-full flex flex-col justify-evenly right-0 absolute">
-        <h1 className="text-sm md:text-2xl h-full flex right-0 relative justify-center items-center bg-creme px-[5%] text-justify leading-5 md:leading-10">
+      <div className="w-full md:w-[50%] h-screen flex flex-col justify-evenly right-0 absolute overflow-auto">
+        <h1 className="text-sm md:text-lg lg:text-2xl h-full flex right-0 relative justify-center items-center bg-creme px-[5%] text-justify leading-5 md:leading-10">
           A escolha da cera de coco como base para nossas velas reflete um
           compromisso com a pureza e a sustentabilidade. Diferente da parafina,
           que gera resíduos poluentes ao queimar, a cera de coco é uma
@@ -35,7 +36,7 @@ function Materiais() {
             className="w-[15%] right-0 absolute mr-[40%] mt-0 bottom-[50%] hidden md:block"
           />
         </div>
-        <h2 className="text-sm md:text-2xl h-full flex right-0 relative justify-center items-center bg-creme px-[5%] text-justify leading-5 md:leading-10">
+        <h2 className="text-sm md:text-lg lg:text-2xl h-full flex right-0 relative justify-center items-center bg-creme px-[5%] text-justify leading-5 md:leading-10">
           Além disso, nossos pavios de alta qualidade são cuidadosamente
           selecionados para assegurar uma combustão contínua e sem resíduos.
           Essa atenção aos detalhes resulta em uma queima mais duradoura e

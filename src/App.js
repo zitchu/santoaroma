@@ -6,7 +6,6 @@ import Materiais from "./components/materiais";
 import Pedidos from "./components/pedidos";
 import Home from "./components/home";
 import Logo from "./components/img/logo3.png";
-
 import Sobre from "./components/sobre";
 
 function App() {
@@ -15,7 +14,7 @@ function App() {
     <div>
       <Parallax ref={parallax} pages={5}>
         <ParallaxLayer sticky={{ start: 0, end: 4 }} style={{ height: "50px" }}>
-          <div className="flex flex-row relative w-[100vw] gap-1 bg-verde ">
+          <div className="flex flex-row relative w-[100%] gap-1 bg-verde ">
             <div className="flex flex-row justify-center items-top w-full h-[50px] bg-slate-200 relative shadow-md ">
               <div
                 onClick={() => parallax.current.scrollTo(0)}
@@ -37,9 +36,7 @@ function App() {
                 onClick={() => parallax.current.scrollTo(2)}
                 className="h-[50px] flex flex-col cursor-pointer text-black hover:text-white text-center justify-center items-center font-semibold uppercase w-full bg-creme transition duration-300"
               >
-                <div className=" text-lg">
-                  Nossos Materiais
-                </div>
+                <div className=" text-lg">Nossos Materiais</div>
               </div>
               <div
                 onClick={() => parallax.current.scrollTo(3)}
