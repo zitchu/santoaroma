@@ -6,6 +6,14 @@
   background-color: #888c64;
 }
 
+.verdao {
+  color: #3f4607;
+}
+
+.bg-verdao {
+  background-color: #3f4607;
+}
+
 .rosa {
   color: #ceaa94;
 }
@@ -67,4 +75,20 @@
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+}
+
+.fira-sans {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }

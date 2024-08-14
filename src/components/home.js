@@ -14,7 +14,7 @@ function Home() {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="w-[66%] h-full flex flex-col left-0 absolute justify-center items-center bg-verde">
+      <div className="w-[66%] h-screen absolute flex-col left-0 flex justify-center items-center bg-verde">
         <img src={Logo} alt="Logo" className="" />
         <img
           src={Flor3}

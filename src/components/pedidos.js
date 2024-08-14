@@ -4,7 +4,7 @@ import Flor4 from "./img/flor4.png";
 
 function Pedidos() {
   return (
-    <div className="h-screen pt-[51px] w-full bg-marrom text-white text-2xl relative flex flex-col justify-center items-center z-[1000]">
+    <div className="h-screen pt-[51px] w-full bg-marrom text-white text-2xl relative flex flex-col justify-center items-center z-[999]">
       <div className="flex flex-col items-center">
         <h1 className="px-[5%] text-lg md:text-2xl text-center quicksand-title">
           Conheça nosso Instagram e faça seu pedido
