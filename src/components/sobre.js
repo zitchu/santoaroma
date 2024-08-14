@@ -15,7 +15,7 @@ function Sobre() {
       }}
     >
       <div className="w-full lg:w-[60%] h-screen flex flex-col right-0 absolute justify-evenly items-center bg-rosa ">
-        <h1 className="quicksand-body px-[5%] h-auto text-justify text-sm md:text-lg lg:text-2xl flex flex-col leading-4 md:leading-6">
+        <h1 className="quicksand-body px-[5%] h-auto text-justify text-sm md:text-lg lg:text-2xl flex flex-col leading-6 md:leading-10">
           <p className="top-0 py-4 dancing-script text-lg md:text-2xl lg:text-4xl">
             Penso que...
           </p>
@@ -23,7 +23,7 @@ function Sobre() {
           aromáticas me acompanham nesses momentos, e produzir essas velas me
           permite compartilhá-los com mais pessoas.
         </h1>
-        <h1 className="quicksand-body h-auto px-[5%] text-justify text-sm md:text-lg lg:text-2xl leading-4 md:leading-6">
+        <h1 className="quicksand-body h-auto px-[5%] text-justify text-sm md:text-lg lg:text-2xl leading-6 md:leading-10">
           <i>
             Sempre tive uma conexão com aromas e ambientes harmoniosos. Percebi
             que velas aromáticas complementam perfeitamente os espaços onde

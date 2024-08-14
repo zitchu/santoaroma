@@ -47,7 +47,7 @@ function App() {
             onClick={() => scrollToSection("pedidos")}
             className="h-[50px] quicksand-title flex flex-col cursor-pointer text-shadow text-white hover:text-[#888c64] text-center justify-center items-center font-semibold  w-full bg-marrom transition duration-300"
           >
-            <div className="text-lg">Pedidos</div>
+            <div className="text-lg">Contato</div>
           </div>
         </div>
       </div>

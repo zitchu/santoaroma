@@ -14,28 +14,24 @@ function Materiais() {
       }}
     >
       <div className="w-full md:w-[66%] h-screen flex flex-col justify-evenly left-0 absolute bg-creme">
-        <h1 className="quicksand-body text-sm md:text-lg lg:text-2xl h-auto flex flex-col right-0 relative  items-center bg-creme px-[5%] text-justify leading-4 md:leading-6">
-          <p className=" top-0 py-4 dancing-script text-lg md:text-2xl lg:text-4xl">
+        <h1 className="quicksand-body text-xl lg:text-3xl h-auto flex flex-col right-0 relative items-center bg-creme px-[5%] text-justify leading-6 md:leading-10">
+          <strong className=" top-0 py-4 dancing-script text-2xl lg:text-4xl">
             Nossa matéria-prima
-          </p>
+          </strong>
           A cera de coco, usada em nossas velas, reflete nosso compromisso com
           pureza e sustentabilidade. Diferente da parafina, é uma alternativa
           natural que proporciona uma chama limpa e purificadora, liberando
           aromas gradualmente para uma experiência sensorial envolvente.
         </h1>
-        {/* <img
-          src={Vela4}
-          alt="vela4"
-          className="w-full inset-0 relative mr-[40%] mt-0 bottom-[50%] md:hidden"
-        /> */}
-        <div className=" w-full h-[15%] flex justify-center bg-creme">
+
+        <div className=" w-full h-[15%] hidden md:flex justify-center bg-creme">
           <img
             src={Flor1}
             alt="flor1"
-            className="w-[15%]  mt-0 bottom-[50%] hidden md:block"
+            className="scale-50 md:scale-100 mt-0 bottom-[50%] hidden md:block"
           />
         </div>
-        <h2 className="quicksand-body pt-4 text-sm md:text-lg lg:text-2xl h-auto flex right-0 relative justify-center bg-creme px-[5%] text-justify leading-4 md:leading-6">
+        <h2 className="quicksand-body pt-4 text-xl lg:text-3xl h-auto flex right-0 relative justify-center bg-creme px-[5%] text-justify leading-6 md:leading-10">
           Nossos pavios de alta qualidade garantem uma combustão contínua e
           suave, preservando as fragrâncias até o fim. Com componentes
           superiores, cada vela oferece serenidade e um compromisso com a
